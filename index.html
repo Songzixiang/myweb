@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>哔哩哔哩个人页面</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>欢迎来到我的哔哩哔哩页面！</h1>
+    <nav>
+      <a href="#about">关于我</a>
+      <a href="#carousel">轮播图</a>
+      <a href="#contact">联系我</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>关于我</h2>
+      <p>这里是我的个人介绍。</p>
+    </section>
+    <section id="carousel">
+      <h2>我的作品轮播图</h2>
+      <div class="carousel">
+        <img class="carousel-item active" src="https://pic.imgdb.cn/item/65e6cfa69f345e8d03fb7b8b.png" alt="作品1"/>
+        <img class="carousel-item" src="https://pic.imgdb.cn/item/65e6cfa69f345e8d03fb7b8c.png" alt="作品2"/>
+        <img class="carousel-item" src="https://pic.imgdb.cn/item/65e6cfa69f345e8d03fb7b8d.png" alt="作品3"/>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>联系我</h2>
+      <form id="contact-form">
+        <label for="name">姓名：</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">邮箱：</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">提交</button>
+        <span id="form-msg"></span>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 哔哩哔哩个人页面</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
